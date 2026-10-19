@@ -1,6 +1,6 @@
 import { lazy, Suspense, useCallback, useEffect, useRef, useState, type PointerEvent } from 'react'
 import { WebGLGate, useWebGLAllowed } from '../shared/webgl'
-import { EMAIL, HIRE_HREF, LINKEDIN, LINKEDIN_LABEL } from './data'
+import { EMAIL, EMAIL_HREF, LINKEDIN, LINKEDIN_LABEL } from './data'
 import type { Ptr, Scroll } from './scene/NameScene'
 
 const NameScene = lazy(() => import('./scene/NameScene'))
@@ -102,17 +102,16 @@ export default function Hero() {
 
       <div className="h-hero-copy">
         <h1 id="h-name" className="sr-only">
-          Kahaan Kapasi, freelance web developer
+          Kahaan Kapasi, developer
         </h1>
         <p className="h-hero-line">
-          I build business websites, product catalogues you can edit yourself, and web apps for small and mid-size
-          companies. One person, start to finish.
+          Here's what I build: web apps, mobile apps, real-time tools and interactive 3D.
         </p>
         <div className="h-hero-actions">
           <a className="h-btn h-btn-solid" href="#work">
             <span>See work</span>
           </a>
-          <a className="h-btn h-btn-ghost" href={HIRE_HREF}>
+          <a className="h-btn h-btn-ghost" href={EMAIL_HREF}>
             <span>Email me</span>
           </a>
         </div>

@@ -1,4 +1,4 @@
-export { EMAIL, LINKEDIN, LINKEDIN_LABEL, MAILTO, HIRE_HREF } from '../shared/contact'
+export { EMAIL, LINKEDIN, LINKEDIN_LABEL, MAILTO, EMAIL_HREF } from '../shared/contact'
 
 export const NAV = [
   { id: 'work', label: 'Work' },
@@ -202,43 +202,20 @@ export const CONCEPTS: Concept[] = [
 
 export const SERVICES = [
   {
-    name: 'Business and catalogue sites',
-    text: 'Marketing sites and product catalogues with an editable CMS, so a non-technical owner can change copy, photos and prices without waiting on a developer.',
+    name: 'Websites',
+    text: 'Marketing and content sites, built to load fast and read well on a phone.',
   },
   {
     name: 'Web apps',
-    text: 'Operator tools, dashboards, live rooms and admin consoles. Real-time when the job needs it, boring and reliable when it does not.',
+    text: 'Operator tools, dashboards, live rooms and admin consoles. Real-time when it needs to be, boring and reliable when it does not.',
   },
   {
     name: 'Mobile apps',
-    text: 'Cross-platform apps with a backend that is designed as part of the same job, not bolted on later.',
+    text: 'Cross-platform apps with a backend that is designed as part of the same build, not bolted on later.',
   },
   {
     name: 'AI content tools',
     text: 'Pipelines that draft, cluster and produce. A person still approves. Built for operators who cannot sit in the feed all day.',
-  },
-] as const
-
-export const PROCESS = [
-  {
-    name: 'Scope',
-    text: 'We agree pages, features, content and a date, in writing, before any invoice.',
-  },
-  {
-    name: 'Advance',
-    text: 'Work starts on a 50% advance. The rest is tied to what you can click.',
-  },
-  {
-    name: 'Milestones',
-    text: 'You see builds as they land, not a big reveal at the end.',
-  },
-  {
-    name: 'Launch',
-    text: 'Domain, hosting, CMS handoff and a pass on the phone you will actually use.',
-  },
-  {
-    name: 'Maintenance',
-    text: 'Optional monthly care: edits, uptime and small changes once the site is live.',
   },
 ] as const
 

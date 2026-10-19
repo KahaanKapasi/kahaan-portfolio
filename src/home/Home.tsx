@@ -8,13 +8,13 @@ import Hero from './Hero'
 import Credibility from './Credibility'
 import Work from './Work'
 import Experience from './Experience'
-import { Contact, Process, Services, Stack } from './Rest'
+import { Contact, Services, Stack } from './Rest'
 import './home.css'
 
 export default function Home() {
   useMeta(
-    'Kahaan Kapasi | Freelance web developer for business sites, catalogues and web apps',
-    'Kahaan Kapasi builds business websites, product catalogues with an editable CMS, real-time web apps and interactive 3D. Direct with the developer. Email kahaankapasi@gmail.com.',
+    'Kahaan Kapasi | Developer',
+    'Kahaan Kapasi builds web apps, mobile apps, real-time systems and interactive 3D. Shipped work, concept builds and case studies.',
   )
 
   return (
@@ -29,7 +29,6 @@ export default function Home() {
         <Work />
         <Experience />
         <Services />
-        <Process />
         <Stack />
         <Contact />
       </main>

@@ -10,7 +10,7 @@ import './site-nav.css'
 const LINKS = [
   { id: 'work', label: 'Work' },
   { id: 'experience', label: 'Experience' },
-  { id: 'services', label: 'Services' },
+  { id: 'services', label: 'Builds' },
   { id: 'contact', label: 'Contact' },
 ] as const
 
