@@ -162,6 +162,7 @@ export default function Work() {
         <p className="h-voice k-voice">Things that shipped, with the one number that matters.</p>
       </Reveal>
       <CaseRows />
+      <p className="h-nda">There are a few more projects I'm not allowed to show here.</p>
       <Concepts />
     </section>
   )

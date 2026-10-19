@@ -77,7 +77,7 @@ Lazy-loaded chunk; `WebGLGate` (`src/shared/webgl.tsx`) renders a static fallbac
 ## Components
 
 - **Accent picker** (`AccentPicker`): see Accent themes above. Sits above the fine print in the Home footer and at the end of the case-study footer.
-- **Pill nav** (`SiteNav`): centred floating pill on desktop (logo, Work, Experience, Services, Contact, persistent "Hire me" linking to the email). Under 720px it becomes a bottom pill with an inline-expanding Menu (links, email, LinkedIn). Active section on Home shown with a dot. Used on Home, case studies and 404. Concept sites keep their own nav.
+- **Pill nav** (`SiteNav`): centred floating pill on desktop (logo, Work, Experience, Services, Contact, no hire button). Under 720px it becomes a bottom pill with an inline-expanding Menu (links, email, LinkedIn). Active section on Home shown with a dot. Used on Home, case studies and 404. Concept sites keep their own nav.
 - **Buttons** (`.h-btn`, `.w-btn`): 48px minimum height, pill, 650 weight. Solid = accent on `--k-accent-ink`, hover `--k-accent-hi`; ghost = ink with `--k-line-2` border, accent on hover. Focus: 2px accent outline, 3px offset.
 - **Work rows**: hairline rows with name, what, one figure, year, status; desktop cursor-following image preview, plain list on touch.
 - **Concept carousel / cards**: R3F card carousel with scroll-velocity bend on desktop WebGL; horizontal snap cards with 2D canvas art (`src/home/concepts/art.ts`) on phones and without WebGL. Art is drawn in code.

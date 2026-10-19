@@ -58,7 +58,7 @@ export const CASES: CaseRow[] = [
     what: 'A B2C cricket platform: live scoring, tournaments, auctions and invites on a microservice backend. I own the architecture and backend design.',
     figure: '7',
     figureLabel: 'backend services behind one gateway',
-    year: '2025-now',
+    year: '2026',
     status: 'In development',
     tint: '#1f3fb5',
     shot: {
@@ -100,7 +100,7 @@ export const CASES: CaseRow[] = [
     what: 'A custom Shopify theme for the Madridonomy football-streetwear store: collections, size picker, cart drawer and locales, in Liquid.',
     figure: '16',
     figureLabel: 'hand-written Liquid sections, no starter theme',
-    year: '2026',
+    year: '2025',
     status: 'Live',
     tint: '#e8300a',
     shot: {

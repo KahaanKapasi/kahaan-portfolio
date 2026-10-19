@@ -525,3 +525,10 @@
 @media (min-width: 720px) { .h-contact { padding-bottom: 28px; } }
 @media (min-width: 1440px) { .h-home { font-size: 17px; } }
 @media (prefers-reduced-transparency: reduce) { .h-hero-copy { background: var(--k-bg); } }
+
+.h-nda {
+  margin: 20px 0 0;
+  max-width: 60ch;
+  font-size: 0.95rem;
+  color: var(--k-mute);
+}

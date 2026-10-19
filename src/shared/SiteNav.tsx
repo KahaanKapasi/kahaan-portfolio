@@ -2,7 +2,7 @@ import { useCallback, useEffect, useId, useRef, useState, type CSSProperties, ty
 import { Link, useLocation } from 'react-router-dom'
 import '@fontsource-variable/saira/wght.css'
 import '@fontsource-variable/onest'
-import { EMAIL, HIRE_HREF, LINKEDIN, LINKEDIN_LABEL } from './contact'
+import { EMAIL, LINKEDIN, LINKEDIN_LABEL } from './contact'
 import './world.css'
 import './site-nav.css'
 
@@ -166,9 +166,6 @@ export default function SiteNav() {
               <path d={open ? 'M2 2l8 8M10 2L2 10' : 'M1 4l5 5 5-5'} />
             </svg>
           </button>
-          <a className="sn-hire" href={HIRE_HREF}>
-            <span>Hire me</span>
-          </a>
         </div>
       </nav>
     </header>
