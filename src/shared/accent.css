@@ -1,0 +1,52 @@
+/* Accent picker (site footer). Reads the --k-* world tokens. */
+.kk-acc {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  min-width: 0;
+}
+.kk-acc__legend { color: var(--k-mute); font-size: 13px; line-height: 44px; }
+.kk-acc__row { display: flex; flex-wrap: wrap; gap: 8px; }
+.kk-acc__opt { position: relative; display: block; cursor: pointer; }
+.kk-acc__in {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.kk-acc__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 0 16px 0 13px;
+  border: 1px solid var(--k-line-2);
+  border-radius: 999px;
+  color: var(--k-mute);
+  font-size: 13px;
+  font-weight: 560;
+  line-height: 1;
+  white-space: nowrap;
+  transition: border-color 0.25s var(--k-ease), color 0.25s var(--k-ease), background-color 0.25s var(--k-ease), transform 0.2s var(--k-ease);
+}
+.kk-acc__dot {
+  width: 14px;
+  height: 14px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--sw);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.18);
+}
+.kk-acc__opt:hover .kk-acc__pill { color: var(--k-ink); border-color: var(--k-mute); }
+.kk-acc__in:checked + .kk-acc__pill { color: var(--k-ink); border-color: var(--sw); background: rgb(238 241 234 / 0.06); }
+.kk-acc__in:active + .kk-acc__pill { transform: scale(0.97); }
+.kk-acc__in:focus-visible + .kk-acc__pill { outline: 2px solid var(--k-accent); outline-offset: 3px; }
+@media (max-width: 480px) {
+  .kk-acc__legend { width: 100%; line-height: 1.2; }
+  .kk-acc__row { width: 100%; }
+  .kk-acc__pill { padding: 0 14px 0 11px; }
+}

@@ -1,0 +1,27 @@
+# dependencies and build output
+node_modules
+dist
+*.tsbuildinfo
+
+# secrets and local config (never commit)
+.env*
+*.local
+.vercel
+
+# logs, OS and tool junk
+logs/
+*.log
+.DS_Store
+.npm-lock
+.impeccable/live
+.impeccable/review/
+
+# local generation log from scripts/autos (holds prompts and a spend tally only, no keys; kept out to reduce noise)
+scripts/autos/ledger.json
+
+# internal working notes (client details, agent briefs): keep local
+BRIEF.md
+HANDOFF.md
+PRODUCT.md
+.claude/
+.impeccable/

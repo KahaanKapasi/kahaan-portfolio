@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Kahaan Kapasi | Freelance web developer for business sites, catalogues and web apps</title>
+    <meta name="description" content="Kahaan Kapasi builds business websites, product catalogues with an editable CMS, real-time web apps and interactive 3D. Direct with the developer. Email kahaankapasi@gmail.com." />
+    <meta name="author" content="Kahaan Kapasi" />
+    <meta name="theme-color" content="#101214" />
+    <link rel="icon" href="/home/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://kahaankapasi.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Kahaan Kapasi" />
+    <meta property="og:url" content="https://kahaankapasi.com/" />
+    <meta property="og:title" content="Kahaan Kapasi | Freelance web developer" />
+    <meta property="og:description" content="Business websites, catalogues you can edit yourself, and web apps. Real shipped work, direct with the developer." />
+    <meta property="og:image" content="https://kahaankapasi.com/home/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="KAHAAN KAPASI built from bars over an equaliser, on a charcoal background." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kahaan Kapasi | Freelance web developer" />
+    <meta name="twitter:description" content="Business websites, catalogues you can edit yourself, and web apps. Direct with the developer." />
+    <meta name="twitter:image" content="https://kahaankapasi.com/home/og.png" />
+    <script>
+      /* Apply the saved accent colour before first paint so the page never flashes the default. */
+      try {
+        var a = localStorage.getItem('kk-accent')
+        if (/^(amber|blue|mono|red)$/.test(a)) document.documentElement.dataset.accent = a
+      } catch (e) {}
+    </script>
+    <style>
+      /* Paint the night colour before any script runs, so the page never flashes light. */
+      html { background: #101214; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This portfolio needs JavaScript. Email kahaankapasi@gmail.com for a PDF version.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

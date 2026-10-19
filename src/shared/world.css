@@ -1,0 +1,57 @@
+/* The portfolio's own world: night fabrication shop. Shared by Home, the floating nav
+   and every case study. Concept sites keep their own palettes and never read these. */
+:root {
+  --k-bg: #101214;
+  --k-bg-2: #171a1e;
+  --k-bg-3: #1e2328;
+  --k-ink: #eef1ea;
+  --k-mute: #b7bcb3;
+  --k-faint: #8d928a;
+  --k-line: rgb(238 241 234 / 0.14);
+  --k-line-2: rgb(238 241 234 / 0.26);
+  /* --k-accent, --k-accent-ink, --k-accent-hi, --k-accent-rgb come from the accent theme in shared.css. */
+  --k-display: 'Saira Variable', 'Saira', 'Avenir Next Condensed', 'Arial Narrow', sans-serif;
+  --k-sans: 'Onest Variable', 'Onest', 'Segoe UI', system-ui, sans-serif;
+  --k-serif: 'Bodoni Moda Variable', 'Bodoni Moda', 'Iowan Old Style', Georgia, serif;
+  --k-mono: 'JetBrains Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
+  --k-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --k-pad: clamp(18px, 4.2vw, 48px);
+  --k-max: 1180px;
+  --k-r: 4px;
+  --k-nav-h: 64px;
+  --k-z-nav: 40;
+}
+
+/* One italic serif, for a single line of voice at a time. */
+.k-voice {
+  font-family: var(--k-serif);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-optical-sizing: auto;
+}
+
+/* Scroll reveal: rows blur to sharp as they enter. Runs only when JS adds .rv-on. */
+.rv-on .rv {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateY(16px);
+  transition:
+    opacity 0.7s var(--k-ease) var(--rv-delay, 0ms),
+    filter 0.7s var(--k-ease) var(--rv-delay, 0ms),
+    transform 0.7s var(--k-ease) var(--rv-delay, 0ms);
+}
+.rv-on .rv.rv-in {
+  opacity: 1;
+  filter: none;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rv-on .rv,
+  .rv-on .rv.rv-in {
+    opacity: 1;
+    filter: none;
+    transform: none;
+    transition: none;
+  }
+}

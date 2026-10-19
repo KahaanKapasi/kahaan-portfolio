@@ -1,0 +1,62 @@
+{
+  "revuelto": {
+    "base": "arancio",
+    "paints": {
+      "blu-cepheus":   {"name": "Blu Cepheus",   "desc": "deep metallic night-blue pearl"},
+      "verde-mantis":  {"name": "Verde Mantis",  "desc": "vivid metallic lime green"},
+      "bianco-isis":   {"name": "Bianco Isis",   "desc": "glossy solid white"},
+      "nero-noctis":   {"name": "Nero Noctis",   "desc": "deep metallic black with subtle sparkle"}
+    },
+    "wheel": {"id": "bronze", "name": "Forged Bronze", "desc": "satin bronze-gold finish, same spoke design"}
+  },
+  "huracan-sto": {
+    "base": "celeste",
+    "paints": {
+      "giallo-inti":   {"name": "Giallo Inti",   "desc": "bright metallic sun yellow"},
+      "verde-mantis":  {"name": "Verde Mantis",  "desc": "vivid metallic lime green"},
+      "rosso-mars":    {"name": "Rosso Mars",    "desc": "rich glossy metallic red"},
+      "nero-noctis":   {"name": "Nero Noctis",   "desc": "deep metallic black with subtle sparkle"}
+    },
+    "wheel": {"id": "bronze", "name": "Forged Bronze", "desc": "satin bronze-gold finish, same spoke design"}
+  },
+  "911-gt3": {
+    "base": "signal-yellow",
+    "paints": {
+      "guards-red":    {"name": "Guards Red",    "desc": "classic glossy solid red"},
+      "gt-silver":     {"name": "GT Silver",     "desc": "bright metallic silver"},
+      "shark-blue":    {"name": "Shark Blue",    "desc": "vivid metallic ocean blue"},
+      "jet-black":     {"name": "Jet Black",     "desc": "deep metallic black"}
+    },
+    "wheel": {"id": "silver", "name": "Diamond Silver", "desc": "bright diamond-cut silver finish, same spoke design"}
+  },
+  "taycan-turbo": {
+    "base": "carrara",
+    "paints": {
+      "jet-black":     {"name": "Jet Black",     "desc": "deep metallic black"},
+      "volcano-grey":  {"name": "Volcano Grey",  "desc": "dark metallic grey"},
+      "gentian-blue":  {"name": "Gentian Blue",  "desc": "rich dark metallic blue"},
+      "cherry":        {"name": "Cherry",        "desc": "deep metallic cherry red"}
+    },
+    "wheel": {"id": "bronze", "name": "Forged Bronze", "desc": "satin bronze-gold finish, same spoke design"}
+  },
+  "m4-csl": {
+    "base": "brooklyn",
+    "paints": {
+      "portimao":      {"name": "Portimao Blue", "desc": "vivid metallic blue"},
+      "alpine-white":  {"name": "Alpine White",  "desc": "glossy solid white"},
+      "sao-paulo":     {"name": "Sao Paulo Yellow", "desc": "bright glossy solid yellow"},
+      "toronto-red":   {"name": "Toronto Red",   "desc": "glossy metallic red"}
+    },
+    "wheel": {"id": "silver", "name": "Diamond Silver", "desc": "bright silver finish, same spoke design"}
+  },
+  "i5-m60": {
+    "base": "fire-red",
+    "paints": {
+      "mineral-white": {"name": "Mineral White", "desc": "soft pearlescent metallic white"},
+      "black-sapphire":{"name": "Black Sapphire","desc": "deep metallic black"},
+      "tanzanite":     {"name": "Tanzanite Blue","desc": "dark metallic violet-blue"},
+      "brooklyn":      {"name": "Brooklyn Grey", "desc": "mid-tone metallic grey"}
+    },
+    "wheel": {"id": "silver", "name": "Diamond Silver", "desc": "bright silver finish, same spoke design"}
+  }
+}

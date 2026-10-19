@@ -1,0 +1,158 @@
+{
+ "revuelto/front": {
+  "model": "revuelto",
+  "angle": "front",
+  "title": "2023 Lamborghini Revuelto.jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2023_Lamborghini_Revuelto.jpg",
+  "orig_size": [
+   4780,
+   2824
+  ]
+ },
+ "revuelto/rear": {
+  "model": "revuelto",
+  "angle": "rear",
+  "title": "2023 Lamborghini Revuelto Rear.jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2023_Lamborghini_Revuelto_Rear.jpg",
+  "orig_size": [
+   4937,
+   2688
+  ]
+ },
+ "huracan-sto/front": {
+  "model": "huracan-sto",
+  "angle": "front",
+  "title": "2021 Lamborghini Huracan STO Launch spec.jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2021_Lamborghini_Huracan_STO_Launch_spec.jpg",
+  "orig_size": [
+   5978,
+   3233
+  ]
+ },
+ "huracan-sto/alt": {
+  "model": "huracan-sto",
+  "angle": "alt",
+  "title": "2021 Lamborghini Huracan STO Blue.jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2021_Lamborghini_Huracan_STO_Blue.jpg",
+  "orig_size": [
+   6439,
+   3953
+  ]
+ },
+ "911-gt3/front": {
+  "model": "911-gt3",
+  "angle": "front",
+  "title": "2021 Porsche 911 GT3 (992).jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2021_Porsche_911_GT3_(992).jpg",
+  "orig_size": [
+   6033,
+   3329
+  ]
+ },
+ "911-gt3/rear": {
+  "model": "911-gt3",
+  "angle": "rear",
+  "title": "Porsche 911 992 GT3 Rear.jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Porsche_911_992_GT3_Rear.jpg",
+  "orig_size": [
+   4699,
+   2616
+  ]
+ },
+ "taycan-turbo/front": {
+  "model": "taycan-turbo",
+  "angle": "front",
+  "title": "2024 Porsche Taycan Turbo S (53538640412).jpg",
+  "author": "Mustang Joe",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:2024_Porsche_Taycan_Turbo_S_(53538640412).jpg",
+  "orig_size": [
+   5679,
+   3194
+  ]
+ },
+ "taycan-turbo/rear": {
+  "model": "taycan-turbo",
+  "angle": "rear",
+  "title": "Porsche Taycan at IAA 2019 IMG 0252.jpg",
+  "author": "Alexander Migl",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_at_IAA_2019_IMG_0252.jpg",
+  "orig_size": [
+   4223,
+   2803
+  ]
+ },
+ "m4-csl/front": {
+  "model": "m4-csl",
+  "angle": "front",
+  "title": "2022 BMW M4 CSL (cropped).jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2022_BMW_M4_CSL_(cropped).jpg",
+  "orig_size": [
+   4598,
+   2656
+  ]
+ },
+ "m4-csl/rear": {
+  "model": "m4-csl",
+  "angle": "rear",
+  "title": "2022 BMW M4 CSL Rear FOS22.jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2022_BMW_M4_CSL_Rear_FOS22.jpg",
+  "orig_size": [
+   4734,
+   2835
+  ]
+ },
+ "i5-m60/front": {
+  "model": "i5-m60",
+  "angle": "front",
+  "title": "2023 BMW i5 M60.jpg",
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2023_BMW_i5_M60.jpg",
+  "orig_size": [
+   4861,
+   2711
+  ]
+ },
+ "i5-m60/alt": {
+  "model": "i5-m60",
+  "angle": "alt",
+  "title": "2023 BMW i5 M60 1.jpg",
+  "author": "Calreyn88",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:2023_BMW_i5_M60_1.jpg",
+  "orig_size": [
+   3741,
+   2367
+  ]
+ }
+}
